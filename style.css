@@ -3,9 +3,3 @@
   src: url('Droog-Heavy.ttf') format('truetype'); /* Adjust the path if needed */
 }
 
-body {
-  font-family: 'Droog', sans-serif; /* Fallback to sans-serif if the font fails to load */
-  text-align: center;
-  margin-top: 50px;
-}
-
