@@ -1,3 +1,2 @@
 # Pop-Beaufort
-
-//README
+README for personal project
