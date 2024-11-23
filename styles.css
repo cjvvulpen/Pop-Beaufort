@@ -1,8 +1,17 @@
+/* Define the font-face */
 @font-face {
   font-family: 'Droog';
   src: url('fonts/Droog-Heavy.woff') format('woff');
 }
 
+/* Apply styles to the body */
 body {
-  font-family: 'Droog'; /* Add a fallback font */
+  background-color: black; /* Set background color to black */
+  font-family: 'Droog', sans-serif; /* Use 'Droog' font with fallback */
+  color: #cb5808; /* Set text color to #cb5808 (orange) */
+}
+
+/* Optionally, you can set specific text elements with a different color */
+h1, h2, p {
+  color: #cb5808; /* Set color to the desired orange for headings and text */
 }
