@@ -25,17 +25,20 @@ header {
   padding: 15px 0;
   text-align: center;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3); /* Add shadow for sleek effect */
+  font-family: 'Droog', Arial, sans-serif;
 }
 
 nav ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
+  font-family: 'Droog', Arial, sans-serif;
 }
 
 nav ul li {
   display: inline;
   margin: 0 20px;
+  font-family: 'Droog', Arial, sans-serif;
 }
 
 nav ul li a {
@@ -49,6 +52,7 @@ nav ul li a {
 
 nav ul li a:hover {
   color: #9c3406; /* Orange color on hover */
+  font-family: 'Droog', Arial, sans-serif;
 }
 
 /* Hero Section */
@@ -56,6 +60,7 @@ nav ul li a:hover {
   text-align: center;
   padding: 100px 20px;
   animation: fadeIn 2s ease-in-out;
+  font-family: 'Droog', Arial, sans-serif;
 }
 
 .hero h1 {
@@ -86,6 +91,7 @@ nav ul li a:hover {
   justify-content: center;
   gap: 30px;
   margin-top: 20px;
+  font-family: 'Droog', Arial, sans-serif;
 }
 
 .menu-item {
@@ -101,6 +107,7 @@ nav ul li a:hover {
 
 .menu-item:hover {
   transform: scale(1.1);
+  font-family: 'Droog', Arial, sans-serif;
 }
 
 /* About Us Section */
