@@ -6,7 +6,7 @@
 }
 
 body {
-  font-family: Arial, sans-serif;
+  font-family: 'Droog', Arial, sans-serif; /* 'Droog' with fallback to Arial */
   background-color: black; /* Set background color to black */
   color: #9c3406; /* Set text color to warm orange */
   margin: 0;
@@ -19,23 +19,7 @@ body {
   src: url('fonts/Droog-Heavy.woff') format('woff');
 }
 
-/* Hero Section */
-.hero {
-  text-align: center;
-  padding: 100px 20px;
-  animation: fadeIn 2s ease-in-out;
-}
-
-.hero h1 {
-  font-size: 3em;
-  letter-spacing: 5px;
-  font-weight: bold;
-  font-family: 'Droog', sans-serif; /* Apply Droog font here */
-  animation: popIn 1s ease-out;
-  color: #9c3406; /* Keep POP in orange */
-}
-
-/* Navigation Bar (new color and styling) */
+/* Navigation Bar */
 header {
   background-color: #2c3e50; /* Dark blue-gray for a sleek, modern look */
   padding: 15px 0;
@@ -60,10 +44,27 @@ nav ul li a {
   font-weight: bold;
   font-size: 18px;
   transition: color 0.3s ease; /* Animation for hover effect */
+  font-family: 'Droog', Arial, sans-serif; /* Apply Droog font here */
 }
 
 nav ul li a:hover {
   color: #9c3406; /* Orange color on hover */
+}
+
+/* Hero Section */
+.hero {
+  text-align: center;
+  padding: 100px 20px;
+  animation: fadeIn 2s ease-in-out;
+}
+
+.hero h1 {
+  font-size: 3em;
+  letter-spacing: 5px;
+  font-weight: bold;
+  font-family: 'Droog', Arial, sans-serif; /* Apply Droog font here */
+  animation: popIn 1s ease-out;
+  color: #9c3406; /* Keep POP in orange */
 }
 
 /* Menu Section */
@@ -76,6 +77,7 @@ nav ul li a:hover {
 #menu h2 {
   font-size: 2.5em;
   margin-bottom: 20px;
+  font-family: 'Droog', Arial, sans-serif; /* Apply Droog font here */
 }
 
 .menu-items {
@@ -93,6 +95,7 @@ nav ul li a:hover {
   font-size: 1.5em;
   text-align: center;
   transition: transform 0.3s ease;
+  font-family: 'Droog', Arial, sans-serif; /* Apply Droog font here */
 }
 
 .menu-item:hover {
@@ -109,6 +112,11 @@ nav ul li a:hover {
 #about h2 {
   font-size: 2.5em;
   margin-bottom: 20px;
+  font-family: 'Droog', Arial, sans-serif; /* Apply Droog font here */
+}
+
+#about p {
+  font-family: 'Droog', Arial, sans-serif; /* Apply Droog font here */
 }
 
 /* Animations */
@@ -145,4 +153,3 @@ section.animate {
     transform: translateY(0);
   }
 }
-
