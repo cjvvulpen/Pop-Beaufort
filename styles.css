@@ -1,19 +1,127 @@
-/* Define the font-face */
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: black; /* Set background color to black */
+  color: #9c3406; /* Set text color to warm orange */
+  margin: 0;
+  padding: 0;
+}
+
+/* Ensure the custom font is applied */
 @font-face {
   font-family: 'Droog';
   src: url('fonts/Droog-Heavy.woff') format('woff');
 }
 
-/* Apply styles to the body */
-body {
-  background-color: black; /* Set background color to black */
-  font-family: 'Droog', sans-serif; /* Use 'Droog' font with fallback */
-  color: #ac4a07; /* Set text color to #cb5808 (orange) */
+/* Navigation Bar */
+header {
+  background-color: #222; /* Dark background for the nav */
+  padding: 10px 0;
+  text-align: center;
 }
 
-/* Optionally, you can set specific text elements with a different color */
-h1 {
-  background-color: black; /* Set background color to black */
-  font-family: 'Droog', sans-serif; /* Use 'Droog' font with fallback */
-  color: #ac4a07; /* Set color to the desired orange for headings and text */
+nav ul {
+  list-style-type: none;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: #9c3406; /* Orange color for the links */
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 18px;
+  transition: color 0.3s ease; /* Animation for hover effect */
+}
+
+nav ul li a:hover {
+  color: white; /* White color on hover */
+}
+
+/* Hero Section */
+.hero {
+  text-align: center;
+  padding: 100px 20px;
+  animation: fadeIn 2s ease-in-out;
+}
+
+.hero h1 {
+  font-size: 3em;
+  letter-spacing: 5px;
+  font-weight: bold;
+  font-family: 'Droog', sans-serif; /* Apply Droog font here */
+  animation: popIn 1s ease-out;
+}
+
+/* Menu Section */
+#menu {
+  padding: 50px 20px;
+  background-color: #333;
+  text-align: center;
+}
+
+#menu h2 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+.menu-items {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 20px;
+}
+
+.menu-item {
+  background-color: #9c3406;
+  color: white;
+  padding: 15px 30px;
+  border-radius: 5px;
+  font-size: 1.5em;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.menu-item:hover {
+  transform: scale(1.1);
+}
+
+/* About Us Section */
+#about {
+  padding: 50px 20px;
+  background-color: #444;
+  text-align: center;
+}
+
+#about h2 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes popIn {
+  from {
+    transform: scale(0.5);
+  }
+  to {
+    transform: scale(1);
+  }
 }
