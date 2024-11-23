@@ -12,6 +12,8 @@ body {
 }
 
 /* Optionally, you can set specific text elements with a different color */
-h1, h2, p {
+h1 {
+  background-color: black; /* Set background color to black */
+  font-family: 'Droog', sans-serif; /* Use 'Droog' font with fallback */
   color: #cb5808; /* Set color to the desired orange for headings and text */
 }
