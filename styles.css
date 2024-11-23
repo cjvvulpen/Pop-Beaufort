@@ -3,3 +3,6 @@
   src: url('fonts/Droog-Heavy.woff') format('woff');
 }
 
+body {
+  font-family: 'Droog', sans-serif; /* Add a fallback font */
+}
