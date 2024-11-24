@@ -88,6 +88,7 @@ letter-spacing: 5px;
   background-color: #444;
   text-align: center;
   font-family: 'Margin', Arial, sans-serif;
+  letter-spacing: 3px;
 }
 
 #home h2 {
@@ -99,6 +100,7 @@ letter-spacing: 5px;
 
 #home p {
   font-family: 'Margin', Arial, sans-serif; /* Apply Droog font here */
+  letter-spacing: 3px;
 }
 
 /* Calendar Section */
