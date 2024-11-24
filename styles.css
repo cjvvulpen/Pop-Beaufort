@@ -7,7 +7,7 @@
 
 body {
   font-family: 'Droog', Arial, sans-serif; /* 'Droog' with fallback to Arial */
-  background-color: black; /* Set background color to black */
+  background-color: #51323b; /* Set background color to black */
   color: #9c3406; /* Set text color to warm orange */
   margin: 0;
   padding: 0;
@@ -21,7 +21,7 @@ body {
 
 /* Navigation Bar */
 header {
-  background-color: #2c3e50; /* Dark blue-gray for a sleek, modern look */
+  background-color: #51323b; /* Dark blue-gray for a sleek, modern look */
   padding: 15px 0;
   text-align: center;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3); /* Add shadow for sleek effect */
@@ -95,7 +95,7 @@ nav ul li a:hover {
 }
 
 .menu-item {
-  background-color: #9c3406;
+  background-color: ##51323b;
   color: white;
   padding: 15px 30px;
   border-radius: 5px;
