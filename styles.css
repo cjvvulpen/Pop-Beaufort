@@ -62,7 +62,7 @@ nav ul li a:hover {
 /* Hero Section */
 .hero {
   text-align: center;
-  padding: 100px 20px;
+  padding: 50px 20px;
   animation: fadeIn 2s ease-in-out;
   font-family: 'Droog', Arial, sans-serif;
 }
