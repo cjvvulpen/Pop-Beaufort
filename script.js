@@ -11,3 +11,25 @@ window.addEventListener('scroll', () => {
     }
   });
 });
+
+function listUpcomingEvents() {
+  gapi.client.calendar.events.list({
+    'calendarId': 'primary',
+    'timeMin': (new Date()).toISOString(),
+    'showDeleted': false,
+    'singleEvents': true,
+    'maxResults': 10,
+    'orderBy': 'startTime'
+  }).then(function(response) {
+    var events = response.result.items;
+    if (events.length > 0) {
+      appendPre('Upcoming events:');
+      events.forEach(function(event) {
+        var when = event.start.dateTime || event.start.date;
+        appendPre(event.summary + ' (' + when + ')');
+      });
+    } else {
+      appendPre('No upcoming events found.');
+    }
+  });
+}
