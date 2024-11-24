@@ -18,6 +18,10 @@ body {
   font-family: 'Droog';
   src: url('fonts/Droog-Heavy.woff') format('woff');
 }
+@font-face {
+  font-family: 'Margin';
+  src: url('fonts/Margin.woff') format('woff');
+}
 
 /* Navigation Bar */
 header {
@@ -77,13 +81,13 @@ nav ul li a:hover {
   padding: 50px 20px;
   background-color: #333;
   text-align: center;
-  font-family: 'Droog', Arial, sans-serif;
+  font-family: 'Margin', Arial, sans-serif;
 }
 
 #menu h2 {
   font-size: 2.5em;
   margin-bottom: 20px;
-  font-family: 'Droog', Arial, sans-serif; /* Apply Droog font here */
+  font-family: 'Margin', Arial, sans-serif; /* Apply Droog font here */
 }
 
 .menu-items {
@@ -91,7 +95,7 @@ nav ul li a:hover {
   justify-content: center;
   gap: 30px;
   margin-top: 20px;
-  font-family: 'Droog', Arial, sans-serif;
+  font-family: 'Margin', Arial, sans-serif;
 }
 
 .menu-item {
@@ -102,12 +106,12 @@ nav ul li a:hover {
   font-size: 1.5em;
   text-align: center;
   transition: transform 0.3s ease;
-  font-family: 'Droog', Arial, sans-serif; /* Apply Droog font here */
+  font-family: 'Margin', Arial, sans-serif; /* Apply Droog font here */
 }
 
 .menu-item:hover {
   transform: scale(1.1);
-  font-family: 'Droog', Arial, sans-serif;
+  font-family: 'Margin', Arial, sans-serif;
 }
 
 /* About Us Section */
@@ -115,17 +119,17 @@ nav ul li a:hover {
   padding: 50px 20px;
   background-color: #444;
   text-align: center;
-  font-family: 'Droog', Arial, sans-serif;
+  font-family: 'Margin', Arial, sans-serif;
 }
 
 #about h2 {
   font-size: 2.5em;
   margin-bottom: 20px;
-  font-family: 'Droog', Arial, sans-serif; /* Apply Droog font here */
+  font-family: 'Margin', Arial, sans-serif; /* Apply Droog font here */
 }
 
 #about p {
-  font-family: 'Droog', Arial, sans-serif; /* Apply Droog font here */
+  font-family: 'Margin', Arial, sans-serif; /* Apply Droog font here */
 }
 
 /* Animations */
