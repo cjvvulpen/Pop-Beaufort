@@ -175,6 +175,12 @@ letter-spacing: 2px;
   font-family: 'Margin', Arial, sans-serif; /* Apply Droog font here */
 }
 
+footer {
+  padding: 10px;
+  text-align: center; /* Centers the image if it’s smaller than the screen width */
+}
+
+
 /* Animations */
 @keyframes fadeIn {
   from {
