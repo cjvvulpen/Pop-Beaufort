@@ -1,4 +1,3 @@
-// Add animation classes when sections come into view
 window.addEventListener('scroll', () => {
   const sections = document.querySelectorAll('section');
   sections.forEach(section => {
