@@ -1,11 +1,20 @@
-// Smooth Scroll for navigation links
+// Smooth Scroll for internal navigation links
 document.querySelectorAll('nav ul li a').forEach(anchor => {
   anchor.addEventListener('click', function (e) {
-    e.preventDefault();
-    document.querySelector(this.getAttribute('href')).scrollIntoView({
-      behavior: 'smooth',
-      block: 'start'
-    });
+    const href = this.getAttribute('href');
+
+    // Check if the href starts with "#" (internal links)
+    if (href.startsWith('#')) {
+      e.preventDefault();
+      const target = document.querySelector(href);
+
+      if (target) {
+        target.scrollIntoView({
+          behavior: 'smooth',
+          block: 'start'
+        });
+      }
+    }
   });
 });
 
