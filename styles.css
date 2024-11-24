@@ -76,59 +76,93 @@ nav ul li a:hover {
   color: #f08a53; /* Keep POP in orange */
 }
 
-/* Menu Section */
-#menu {
-  padding: 50px 20px;
-  background-color: #333;
-  text-align: center;
-  font-family: 'Margin', Arial, sans-serif;
-}
-
-#menu h2 {
-  font-size: 2.5em;
-  margin-bottom: 20px;
-  font-family: 'Margin', Arial, sans-serif; /* Apply Droog font here */
-}
-
-.menu-items {
-  display: flex;
-  justify-content: center;
-  gap: 30px;
-  margin-top: 20px;
-  font-family: 'Margin', Arial, sans-serif;
-}
-
-.menu-item {
-  background-color: #51323b;
-  color: white;
-  padding: 15px 30px;
-  border-radius: 5px;
-  font-size: 1.5em;
-  text-align: center;
-  transition: transform 0.3s ease;
-  font-family: 'Margin', Arial, sans-serif; /* Apply Droog font here */
-}
-
-.menu-item:hover {
-  transform: scale(1.1);
-  font-family: 'Margin', Arial, sans-serif;
-}
-
-/* About Us Section */
-#about {
+/* Home Section */
+#home {
   padding: 50px 20px;
   background-color: #444;
   text-align: center;
   font-family: 'Margin', Arial, sans-serif;
 }
 
-#about h2 {
+#home h2 {
   font-size: 2.5em;
   margin-bottom: 20px;
   font-family: 'Margin', Arial, sans-serif; /* Apply Droog font here */
 }
 
-#about p {
+#home p {
+  font-family: 'Margin', Arial, sans-serif; /* Apply Droog font here */
+}
+
+/* Calendar Section */
+#calendar {
+  padding: 50px 20px;
+  background-color: #444;
+  text-align: center;
+  font-family: 'Margin', Arial, sans-serif;
+}
+
+#calendar h2 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+  font-family: 'Margin', Arial, sans-serif; /* Apply Droog font here */
+}
+
+#calendar p {
+  font-family: 'Margin', Arial, sans-serif; /* Apply Droog font here */
+}
+
+/* BWAW Section */
+#bwaw {
+  padding: 50px 20px;
+  background-color: #444;
+  text-align: center;
+  font-family: 'Margin', Arial, sans-serif;
+}
+
+#bwaw h2 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+  font-family: 'Margin', Arial, sans-serif; /* Apply Droog font here */
+}
+
+#bwaw p {
+  font-family: 'Margin', Arial, sans-serif; /* Apply Droog font here */
+}
+
+/* Contact Section */
+#contact {
+  padding: 50px 20px;
+  background-color: #444;
+  text-align: center;
+  font-family: 'Margin', Arial, sans-serif;
+}
+
+#contact h2 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+  font-family: 'Margin', Arial, sans-serif; /* Apply Droog font here */
+}
+
+#contact p {
+  font-family: 'Margin', Arial, sans-serif; /* Apply Droog font here */
+}
+
+/* PrefVendor Section */
+#prefvendor {
+  padding: 50px 20px;
+  background-color: #444;
+  text-align: center;
+  font-family: 'Margin', Arial, sans-serif;
+}
+
+#prefvendor h2 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+  font-family: 'Margin', Arial, sans-serif; /* Apply Droog font here */
+}
+
+#prefvendor p {
   font-family: 'Margin', Arial, sans-serif; /* Apply Droog font here */
 }
 
