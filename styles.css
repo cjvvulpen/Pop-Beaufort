@@ -5,6 +5,14 @@
   box-sizing: border-box;
 }
 
+.hidden {
+  display: none;
+}
+
+#about {
+  display: block; /* This ensures About Us is visible on load */
+}
+
 body {
   font-family: 'Droog', Arial, sans-serif; /* 'Droog' with fallback to Arial */
   background-color: #51323b; /* Set background color to black */
