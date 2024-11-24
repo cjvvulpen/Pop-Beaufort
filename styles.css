@@ -76,6 +76,13 @@ nav ul li a:hover {
   color: #f08a53; /* Keep POP in orange */
 }
 
+.hero h3 {
+font-size: 1em;
+font-family: 'Margin', Arial, san-serif;
+color: #f08a53;
+letter-spacing: 5px;
+}
+
 /* Home Section */
 #home {
   padding: 50px 20px;
