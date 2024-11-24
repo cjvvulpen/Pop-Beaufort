@@ -26,3 +26,37 @@ function initClient() {
     });
   });
 }
+
+function handleAuthClick() {
+  gapi.auth2.getAuthInstance().signIn().then(() => {
+    console.log('User signed in!');
+    listEvents(); // Call your function to list calendar events here
+  });
+}
+
+function handleSignOutClick() {
+  gapi.auth2.getAuthInstance().signOut().then(() => {
+    console.log('User signed out.');
+  });
+}
+
+function listEvents() {
+  gapi.client.calendar.events.list({
+    calendarId: 'primary',
+    timeMin: (new Date()).toISOString(),
+    showDeleted: false,
+    singleEvents: true,
+    maxResults: 10,
+    orderBy: 'startTime',
+  }).then((response) => {
+    const events = response.result.items;
+    if (events.length > 0) {
+      events.forEach((event) => {
+        const when = event.start.dateTime || event.start.date;
+        console.log(`${event.summary} (${when})`);
+      });
+    } else {
+      console.log('No upcoming events found.');
+    }
+  });
+}
