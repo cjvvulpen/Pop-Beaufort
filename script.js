@@ -12,24 +12,17 @@ window.addEventListener('scroll', () => {
   });
 });
 
-function listUpcomingEvents() {
-  gapi.client.calendar.events.list({
-    'calendarId': 'primary',
-    'timeMin': (new Date()).toISOString(),
-    'showDeleted': false,
-    'singleEvents': true,
-    'maxResults': 10,
-    'orderBy': 'startTime'
-  }).then(function(response) {
-    var events = response.result.items;
-    if (events.length > 0) {
-      appendPre('Upcoming events:');
-      events.forEach(function(event) {
-        var when = event.start.dateTime || event.start.date;
-        appendPre(event.summary + ' (' + when + ')');
-      });
-    } else {
-      appendPre('No upcoming events found.');
-    }
+function initClient() {
+  gapi.load('client:auth2', () => {
+    gapi.client.init({
+      apiKey: 'YOUR_API_KEY', // Replace with your API key
+      clientId: 'YOUR_CLIENT_ID', // Replace with your Client ID
+      discoveryDocs: ['https://www.googleapis.com/discovery/v1/apis/calendar/v3/rest'],
+      scope: 'https://www.googleapis.com/auth/calendar', // Or 'https://www.googleapis.com/auth/calendar.readonly'
+    }).then(() => {
+      console.log('Client initialized!');
+    }, (error) => {
+      console.error('Error initializing client:', error);
+    });
   });
 }
