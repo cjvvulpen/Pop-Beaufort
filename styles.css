@@ -63,7 +63,7 @@ nav ul li a:hover {
 .hero {
   text-align: center;
   padding: 50px 20px;
-  animation: popIn 0.8s ease-in-out forwards;
+  animation: popIn 0.8s;
   font-family: 'Droog', Arial, sans-serif;
 }
 
@@ -72,7 +72,7 @@ nav ul li a:hover {
   letter-spacing: 5px;
   font-weight: bold;
   font-family: 'Droog', Arial, sans-serif; /* Apply Droog font here */
-  animation: popIn 0.8s ease-in-out forwards;
+  animation: popIn 0.8s;
   color: #f08a53; /* Keep POP in orange */
 }
 
