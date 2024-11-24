@@ -8,7 +8,7 @@
 body {
   font-family: 'Droog', Arial, sans-serif; /* 'Droog' with fallback to Arial */
   background-color: #51323b; /* Set background color to black */
-  color: #9c3406; /* Set text color to warm orange */
+  color: #f08a53; /* Set text color to warm orange */
   margin: 0;
   padding: 0;
 }
@@ -51,7 +51,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-  color: #9c3406; /* Orange color on hover */
+  color: #f08a53; /* Orange color on hover */
   font-family: 'Droog', Arial, sans-serif;
 }
 
@@ -69,7 +69,7 @@ nav ul li a:hover {
   font-weight: bold;
   font-family: 'Droog', Arial, sans-serif; /* Apply Droog font here */
   animation: popIn 1s ease-out;
-  color: #9c3406; /* Keep POP in orange */
+  color: #f08a53; /* Keep POP in orange */
 }
 
 /* Menu Section */
@@ -95,7 +95,7 @@ nav ul li a:hover {
 }
 
 .menu-item {
-  background-color: ##51323b;
+  background-color: #51323b;
   color: white;
   padding: 15px 30px;
   border-radius: 5px;
