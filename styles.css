@@ -136,8 +136,10 @@ letter-spacing: 2px;
   font-family: 'Margin', Arial, sans-serif; /* Apply Droog font here */
 }
 
-#bwaw p {
+#bwaw p { 
   font-family: 'Margin', Arial, sans-serif; /* Apply Droog font here */
+  letter-spacing: 3px;
+  font-size: 1.5em;
 }
 
 /* Contact Section */
