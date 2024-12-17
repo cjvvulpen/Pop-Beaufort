@@ -122,21 +122,21 @@ letter-spacing: 2px;
   font-family: 'Margin', Arial, sans-serif; /* Apply Droog font here */
 }
 
-/* BWAW Section */
-#bwaw {
+/* bw Section */
+#bw {
   padding: 50px 20px;
   background-color: #444;
   text-align: center;
   font-family: 'Margin', Arial, sans-serif;
 }
 
-#bwaw h2 {
+#bw h2 {
   font-size: 2.5em;
   margin-bottom: 20px;
   font-family: 'Margin', Arial, sans-serif; /* Apply Droog font here */
 }
 
-#bwaw p { 
+#bw p { 
   font-family: 'Margin', Arial, sans-serif; /* Apply Droog font here */
   letter-spacing: 3px;
   font-size: 1.5em;
@@ -160,21 +160,21 @@ letter-spacing: 2px;
   font-family: 'Margin', Arial, sans-serif; /* Apply Droog font here */
 }
 
-/* PrefVendor Section */
-#prefvendor {
+/* gallery Section */
+#gallery {
   padding: 50px 20px;
   background-color: #444;
   text-align: center;
   font-family: 'Margin', Arial, sans-serif;
 }
 
-#prefvendor h2 {
+#gallery h2 {
   font-size: 2.5em;
   margin-bottom: 20px;
   font-family: 'Margin', Arial, sans-serif; /* Apply Droog font here */
 }
 
-#prefvendor p {
+#gallery p {
   font-family: 'Margin', Arial, sans-serif; /* Apply Droog font here */
 }
 
